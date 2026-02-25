@@ -681,6 +681,131 @@ body {
   line-height: 1.6;
 }
 
+/* Contact Page */
+.contact-hero {
+  background: var(--primary);
+  color: var(--white);
+  padding: 160px 24px 80px;
+  text-align: center;
+}
+
+.contact-hero-content h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  margin-bottom: 24px;
+  letter-spacing: -1px;
+}
+
+.contact-hero-content p {
+  font-size: clamp(1.1rem, 2vw, 1.25rem);
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact-page-section {
+  padding: 100px 0;
+  background: var(--bg-color);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+}
+
+.contact-card {
+  background: var(--white);
+  padding: 48px;
+  border-radius: 20px;
+  border: 1px solid var(--accent);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.contact-header {
+  margin-bottom: 32px;
+}
+
+.contact-icon-box {
+  width: 56px;
+  height: 56px;
+  background: var(--bg-color);
+  border: 1px solid var(--accent);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  color: var(--primary);
+}
+
+.contact-header h2 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-row {
+  display: flex;
+  gap: 24px;
+}
+
+.form-group.half {
+  flex: 1;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  background: var(--white);
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--text-main);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(13, 13, 13, 0.1);
+}
+
+.btn.full-width {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.inline-icon {
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-top: -2px;
+  opacity: 0.7;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
 

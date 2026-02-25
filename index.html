@@ -1,196 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Def Tech Ops — Definitive Technology Operations</title>
-    <meta name="description" content="Def Tech Ops is a technology-driven marketing agency specializing in marketing strategy, business consulting, AI implementation, and website design." />
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-      <div class="nav-container">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Def Tech Ops — Definitive Technology Operations</title>
+  <meta name="description"
+    content="Def Tech Ops is a technology-driven marketing agency specializing in marketing strategy, business consulting, AI implementation, and website design." />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">DEF TECH OPS</a>
+      <div class="nav-links">
+        <a href="/services.html">Services</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="#contact" class="btn btn-primary nav-cta">Book a Call</a>
+      <button class="mobile-menu-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="4" x2="20" y1="12" y2="12" />
+          <line x1="4" x2="20" y1="6" y2="6" />
+          <line x1="4" x2="20" y1="18" y2="18" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg">
+      <!-- We will put the user's image here once provided. For now it is a dark patterned gradient -->
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <h1 class="hero-title animate-up">Definitive Technology Operations<br>Definitive Results.</h1>
+      <p class="hero-subtitle animate-up delay-1">We fuse strategy, technology, and creativity to deliver marketing that
+        moves the needle.</p>
+      <div class="hero-actions animate-up delay-2">
+        <a href="#contact" class="btn btn-primary">Book a Consultation</a>
+        <a href="/services.html" class="btn btn-outline glow-effect">Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">What We Do</h2>
+        <p class="section-subtitle">Comprehensive solutions for modern businesses.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Card 1 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 3v18h18" />
+              <path d="m19 9-5 5-4-4-3 3" />
+            </svg>
+          </div>
+          <h3>Marketing Strategy</h3>
+          <p>Data-driven campaigns tailored to your target audience for maximum impact.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+              <line x1="16" x2="16" y1="2" y2="6" />
+              <line x1="8" x2="8" y1="2" y2="6" />
+              <line x1="3" x2="21" y1="10" y2="10" />
+              <path d="M8 14h.01" />
+              <path d="M12 14h.01" />
+              <path d="M16 14h.01" />
+              <path d="M8 18h.01" />
+              <path d="M12 18h.01" />
+              <path d="M16 18h.01" />
+            </svg>
+          </div>
+          <h3>Business Consulting</h3>
+          <p>Strategic guidance to optimize operations and improve your bottom line.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 6.1H3" />
+              <path d="M21 12.1H3" />
+              <path d="M15.1 18H3" />
+            </svg>
+          </div>
+          <h3>Social Media Management</h3>
+          <p>Building your community and amplifying your brand voice across platforms.</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+              <path d="M2 12h20" />
+            </svg>
+          </div>
+          <h3>Ads & Campaigns</h3>
+          <p>Targeted advertising that reaches the right people at the right time.</p>
+        </div>
+        <!-- Card 5 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v20" />
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+            </svg>
+          </div>
+          <h3>AI Implementation</h3>
+          <p>Streamline your workflows and unlock new possibilities with AI tools.</p>
+        </div>
+        <!-- Card 6 -->
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
+              <line x1="3" x2="21" y1="9" y2="9" />
+              <line x1="9" x2="9" y1="21" y2="9" />
+            </svg>
+          </div>
+          <h3>Website Design</h3>
+          <p>Beautiful, high-converting websites built for modern businesses.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <h3 class="stat-number">150+</h3>
+        <p class="stat-label">Clients Served</p>
+      </div>
+      <div class="stat-item">
+        <h3 class="stat-number">500+</h3>
+        <p class="stat-label">Campaigns Launched</p>
+      </div>
+      <div class="stat-item">
+        <h3 class="stat-number">98%</h3>
+        <p class="stat-label">Client Retention</p>
+      </div>
+      <div class="stat-item">
+        <h3 class="stat-number">3x</h3>
+        <p class="stat-label">Average ROI</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">What Our Clients Say</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="quote">"Def Tech Ops completely transformed our digital presence. Our lead generation has never been
+            better."</p>
+          <p class="author">- Sarah Mitchell</p>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="quote">"The AI implementation strategy saved us countless hours. Highly recommend their consulting
+            services."</p>
+          <p class="author">- James Carter</p>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p class="quote">"Incredible website design team. They understood our vision perfectly and delivered beyond
+            expectations."</p>
+          <p class="author">- Priya Sharma</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="contact" class="cta-section">
+    <div class="container cta-container">
+      <h2 class="cta-title">Ready to Transform Your Business?</h2>
+      <a href="mailto:info@deftechops.com" class="btn btn-primary btn-large cta-button glow-effect">Schedule a Free
+        Consultation</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
         <a href="#" class="logo">DEF TECH OPS</a>
-        <div class="nav-links">
-          <a href="#services">Services</a>
-          <a href="#about">About</a>
-          <a href="#testimonials">Testimonials</a>
-          <a href="#contact">Contact</a>
-        </div>
-        <a href="#contact" class="btn btn-primary nav-cta">Book a Call</a>
-        <button class="mobile-menu-btn">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
-        </button>
+        <p>Definitive Technology Operations.<br>Definitive Results.</p>
       </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero-bg">
-        <!-- We will put the user's image here once provided. For now it is a dark patterned gradient -->
-        <div class="hero-overlay"></div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="/services.html">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#testimonials">Testimonials</a>
       </div>
-      <div class="hero-content">
-        <h1 class="hero-title animate-up">Definitive Technology Operations<br>Definitive Results.</h1>
-        <p class="hero-subtitle animate-up delay-1">We fuse strategy, technology, and creativity to deliver marketing that moves the needle.</p>
-        <div class="hero-actions animate-up delay-2">
-          <a href="#contact" class="btn btn-primary">Book a Consultation</a>
-          <a href="#services" class="btn btn-outline glow-effect">Our Services</a>
-        </div>
+      <div class="footer-services">
+        <h4>Services</h4>
+        <a href="#">Marketing Strategy</a>
+        <a href="#">AI Implementation</a>
+        <a href="#">Website Design</a>
       </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services">
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>info@deftechops.com</p>
+        <p>1(435) 709-5818</p>
+        <p>Heber City, UT</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
       <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">What We Do</h2>
-          <p class="section-subtitle">Comprehensive solutions for modern businesses.</p>
-        </div>
-        
-        <div class="services-grid">
-          <!-- Card 1 -->
-          <div class="service-card">
-            <div class="service-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-            </div>
-            <h3>Marketing Strategy</h3>
-            <p>Data-driven campaigns tailored to your target audience for maximum impact.</p>
-          </div>
-          <!-- Card 2 -->
-          <div class="service-card">
-            <div class="service-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/><path d="M16 18h.01"/></svg>
-            </div>
-            <h3>Business Consulting</h3>
-            <p>Strategic guidance to optimize operations and improve your bottom line.</p>
-          </div>
-          <!-- Card 3 -->
-          <div class="service-card">
-            <div class="service-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 6.1H3"/><path d="M21 12.1H3"/><path d="M15.1 18H3"/></svg>
-            </div>
-            <h3>Social Media Management</h3>
-            <p>Building your community and amplifying your brand voice across platforms.</p>
-          </div>
-          <!-- Card 4 -->
-          <div class="service-card">
-            <div class="service-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
-            </div>
-            <h3>Ads & Campaigns</h3>
-            <p>Targeted advertising that reaches the right people at the right time.</p>
-          </div>
-          <!-- Card 5 -->
-          <div class="service-card">
-            <div class="service-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-            </div>
-            <h3>AI Implementation</h3>
-            <p>Streamline your workflows and unlock new possibilities with AI tools.</p>
-          </div>
-          <!-- Card 6 -->
-          <div class="service-card">
-            <div class="service-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><line x1="3" x2="21" y1="9" y2="9"/><line x1="9" x2="9" y1="21" y2="9"/></svg>
-            </div>
-            <h3>Website Design</h3>
-            <p>Beautiful, high-converting websites built for modern businesses.</p>
-          </div>
-        </div>
+        <p>&copy; 2024 Def Tech Ops. All rights reserved.</p>
       </div>
-    </section>
+    </div>
+  </footer>
 
-    <!-- Stats Section -->
-    <section class="stats">
-      <div class="container stats-grid">
-        <div class="stat-item">
-          <h3 class="stat-number">150+</h3>
-          <p class="stat-label">Clients Served</p>
-        </div>
-        <div class="stat-item">
-          <h3 class="stat-number">500+</h3>
-          <p class="stat-label">Campaigns Launched</p>
-        </div>
-        <div class="stat-item">
-          <h3 class="stat-number">98%</h3>
-          <p class="stat-label">Client Retention</p>
-        </div>
-        <div class="stat-item">
-          <h3 class="stat-number">3x</h3>
-          <p class="stat-label">Average ROI</p>
-        </div>
-      </div>
-    </section>
+  <script type="module" src="/main.js"></script>
+</body>
 
-    <!-- Testimonials -->
-    <section id="testimonials" class="testimonials">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">What Our Clients Say</h2>
-        </div>
-        <div class="testimonials-grid">
-          <div class="testimonial-card">
-            <div class="stars">★★★★★</div>
-            <p class="quote">"Def Tech Ops completely transformed our digital presence. Our lead generation has never been better."</p>
-            <p class="author">- Sarah Mitchell</p>
-          </div>
-          <div class="testimonial-card">
-            <div class="stars">★★★★★</div>
-            <p class="quote">"The AI implementation strategy saved us countless hours. Highly recommend their consulting services."</p>
-            <p class="author">- James Carter</p>
-          </div>
-          <div class="testimonial-card">
-            <div class="stars">★★★★★</div>
-            <p class="quote">"Incredible website design team. They understood our vision perfectly and delivered beyond expectations."</p>
-            <p class="author">- Priya Sharma</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section id="contact" class="cta-section">
-      <div class="container cta-container">
-        <h2 class="cta-title">Ready to Transform Your Business?</h2>
-        <a href="mailto:info@deftechops.com" class="btn btn-primary btn-large cta-button glow-effect">Schedule a Free Consultation</a>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container footer-grid">
-        <div class="footer-brand">
-          <a href="#" class="logo">DEF TECH OPS</a>
-          <p>Definitive Technology Operations.<br>Definitive Results.</p>
-        </div>
-        <div class="footer-links">
-          <h4>Quick Links</h4>
-          <a href="#services">Services</a>
-          <a href="#about">About Us</a>
-          <a href="#testimonials">Testimonials</a>
-        </div>
-        <div class="footer-services">
-          <h4>Services</h4>
-          <a href="#">Marketing Strategy</a>
-          <a href="#">AI Implementation</a>
-          <a href="#">Website Design</a>
-        </div>
-        <div class="footer-contact">
-          <h4>Contact</h4>
-          <p>info@deftechops.com</p>
-          <p>1(435) 709-5818</p>
-          <p>Heber City, UT</p>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <div class="container">
-          <p>&copy; 2024 Def Tech Ops. All rights reserved.</p>
-        </div>
-      </div>
-    </footer>
-
-    <script type="module" src="/main.js"></script>
-  </body>
 </html>

@@ -559,6 +559,128 @@ body {
   height: 120px;
 }
 
+/* Testimonials Page */
+.testimonials-hero {
+  background: var(--primary);
+  color: var(--white);
+  padding: 160px 24px 80px;
+  text-align: center;
+}
+
+.testimonials-hero-content h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  margin-bottom: 24px;
+  letter-spacing: -1px;
+}
+
+.testimonials-hero-content p {
+  font-size: clamp(1.1rem, 2vw, 1.25rem);
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.testimonials-page-section {
+  padding: 100px 0;
+  background: var(--white);
+}
+
+.testimonials-page-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+}
+
+.testimonial-card.full-card {
+  padding: 48px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-card.full-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+}
+
+.author-title {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* Case Studies */
+.case-studies-section {
+  padding: 100px 0;
+}
+
+.case-studies-section.alt-bg {
+  background: var(--bg-color);
+}
+
+.case-studies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+}
+
+.case-study-card {
+  background: var(--white);
+  padding: 48px;
+  border-radius: 20px;
+  border: 1px solid var(--accent);
+  transition: var(--transition);
+}
+
+.case-study-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.case-icon-box {
+  width: 56px;
+  height: 56px;
+  background: var(--bg-color);
+  border: 1px solid var(--accent);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  color: var(--primary);
+}
+
+.case-study-card h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.case-metric {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--primary);
+  line-height: 1;
+  margin-bottom: 8px;
+  letter-spacing: -2px;
+}
+
+.case-metric-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 1px;
+  margin-bottom: 24px;
+}
+
+.case-description {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
 
